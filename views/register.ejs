@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>annadyantha2k20</title>
+		<link rel="icon" type="image/x-icon" href="/images/titleicon2.jfif">
+		<link rel="stylesheet" type="text/css" href="/stylesheet/design.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body>
+		<div class="navbar">
+			<ul>
+			<li><h1 style="color: red">NITTE</h1>></li>
+			<li style="padding-left: 250px"><a href="/register" style="color: white">Register</li>
+			<li><a href="/gallery">Gallery</a></li>
+			<li><a href="/events">Events</a>
+			</li>
+			<li><a href="/about">Participants</a>
+			</li>
+			</ul>
+		</div>
+		<div id="iconsfit" >
+			<ul >
+				<li style="padding-left: 250px"><a class="btn"href="https://www.instagram.com/anaadyanta/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a class="btn"href="https://www.facebook.com/watch/anaadyantanmit/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+				<li style="padding-right: 400px"><a class="btn"href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+
+		<br>
+
+		<form style="padding: 150px" action="/participants" method="POST">
+			<label style="color: white">FirstName:
+				<input type="text" name="fname"></label>
+			<label style="color: white">LastName:
+				<input type="text" name="lname"></label>
+			<br>
+			<label style="color: white">Email:
+				<input type="text" name="email"></label>
+			<br>
+			<label style="color: white">College:
+				<input type="text" name="clg"></label>
+			<br>
+			<select name="event">
+				<option>technical</option>
+				<option>cultural</option>
+				<option>sport</option>
+			</select>
+			<br>
+			<button>submit</button>
+		</form>
+	</body>
+</html>
